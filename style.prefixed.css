@@ -10,6 +10,7 @@ body {
     max-width: 1200px;
     text-align: center;
     margin: 0 auto;
+    display: -ms-flexbox;
     display: flex; }
     body .container h1 {
       font-weight: 700;
@@ -20,8 +21,9 @@ body {
       color: #1e90ff; }
     body .container .song {
       display: inline-block;
-      justify-content: center; }
+      -ms-flex-pack: center;
+          justify-content: center; }
       body .container .song p {
         text-align: left; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
